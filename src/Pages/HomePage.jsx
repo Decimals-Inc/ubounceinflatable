@@ -15,7 +15,7 @@ const HomePage = () => {
   return (
     <div>
       <NavigationContent />
-      <div className="flex justify-between items-center px-20 py-40 bg-[#F8F8F9]">
+      <div className="lg:flex justify-between items-center lg:px-20 py-40 bg-[#F8F8F9]">
         <SecondContent
           icons={"hi"}
           heading={"We care"}
@@ -32,11 +32,11 @@ const HomePage = () => {
           content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. "}
         />
       </div>
-      <div className="flex justify-between items-center p-20">
-        <div className="w-1/2">
+      <div className="lg:flex justify-between items-center lg:p-20">
+        <div className="lg:w-1/2 w-full">
           <img src={second} alt="Second" className="w-11/12 mx-auto" />
         </div>
-        <div className="w-1/2">
+        <div className="lg:w-1/2 w-full">
           <h3 className="text-4xl font-bold py-6">
             We care. We love. We see. We hope.
           </h3>
@@ -60,8 +60,8 @@ const HomePage = () => {
         <img src={b5} className="w-80 h-80  mx-8" alt="rentals" />
         <img src={b6} className="w-80 h-80  mx-8" alt="rentals" />
       </div>
-      <div className="flex justify-between items-center p-20">
-        <div className="w-1/2">
+      <div className="lg:flex justify-between items-center lg:p-20">
+        <div className="lg:w-1/2">
           <h3  className="text-4xl font-bold py-6">We care. We love. We see. We hope. </h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
@@ -70,7 +70,7 @@ const HomePage = () => {
           </p>
           <Button />
         </div>
-        <div className="w-1/2">
+        <div className="lg:w-1/2">
           <img src={second} alt="Second" className="w-11/12 mx-auto" />
         </div>
       </div>

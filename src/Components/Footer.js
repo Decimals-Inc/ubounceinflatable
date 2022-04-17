@@ -3,13 +3,13 @@ import {FaFacebook, FaInstagram, FaTwitter} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-      <div className="my-8 w-11/12 mx-auto">
+      <div className="my-8 lg:w-11/12 mx-auto text-center">
             <div className="border border-black"/>
-            <div className="flex justify-between items-center p-10">
+            <div className="lg:flex justify-between items-center lg:p-10">
                   <div>
                         <h5>Ubouncellc@yahoo.com</h5>
                   </div>
-                  <div className="flex items-center">
+                  <div className="flex items-center ">
                         <div className='mr-4 cursor-pointer'>
                               <FaInstagram size={24}/>
                         </div>
