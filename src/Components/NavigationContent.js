@@ -5,14 +5,14 @@ import Button from "./Button";
 
 const NavigationContent = () => {
 	return (
-		<div className="lg:h-screen w-full">
+		<div className="h-screen w-full background">
 			<Navigation />
 			<div className="lg:flex justify-between items-center">
-				<div className="lg:w-1/2 px-10  mt-36">
-					<h1 className="lg:text-6xl font-bold lg:py-6">
+				<div className="lg:w-1/2 px-6 lg:px-10 my-60 text-white lg:text-black">
+					<h1 className="text-6xl font-bold lg:py-6">
 						Ubounce Inflatables
 					</h1>
-					<p className="py-6">
+					<p className="py-6 text-lg text-justify">
 						Ubounce Inflatables rents out inflatable structures and
 						buildings for functions, schools and recreational
 						purposes to individuals, groups, organisations etc. Get
@@ -26,7 +26,7 @@ const NavigationContent = () => {
 					<img
 						src={nav}
 						alt={"ubounceimage"}
-						className="w-full lg:h-screen"
+						className="w-full lg:h-screen hidden lg:block"
 					/>
 				</div>
 			</div>

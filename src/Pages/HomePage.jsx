@@ -45,12 +45,12 @@ const HomePage = () => {
 			</div>
 
 			<div className="w-5/6 mx-auto">
-				<div className="lg:flex justify-between items-center py-40">
+				<div className="lg:flex justify-between items-center py-20 lg:py-40">
 					<div className="lg:w-1/2 w-full">
 						<img
 							src={second}
 							alt="Second"
-							className="w-5/6 mx-auto"
+							className="lg:w-5/6 mx-auto"
 						/>
 					</div>
 					<div className="lg:w-1/2 w-full lg:p-24">
@@ -74,7 +74,7 @@ const HomePage = () => {
 				</div>
 			</div>
 
-			<div className="flex space-x-10 w-full overflow-x-auto p-16 lg:p-20">
+			<div className="flex space-x-10 w-full overflow-x-auto p-8 lg:p-20">
 				<section className="flex-shrink-0 w-80 lg:w-96 cursor-pointer">
 					<img src={b1} alt="Cards" className="w-full h-72 mb-5" />
 					<h4 className="py-2 text-2xl font-light">Red inflatable</h4>
@@ -108,7 +108,7 @@ const HomePage = () => {
 			</div>
 
 			<div className="w-5/6 mx-auto">
-				<div className="lg:flex justify-between items-center py-40">
+				<div className="lg:flex justify-between items-center py-20 lg:py-40">
 					<div className="lg:w-1/2 lg:p-24">
 						<h3 className="text-4xl font-bold py-6">
 							We care. We love. We see. We hope.{" "}
@@ -124,7 +124,7 @@ const HomePage = () => {
 						<img
 							src={second}
 							alt="Second"
-							className="w-5/6 mx-auto"
+							className="lg:w-5/6 mx-auto"
 						/>
 					</div>
 				</div>
