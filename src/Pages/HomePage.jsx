@@ -10,6 +10,7 @@ import b6 from "../Assets/Images/6.jpeg";
 import Button from "../Components/Button";
 import SecondContent from "../Components/SecondContent";
 import Footer from "../Components/Footer";
+import InflatableComponent from "../Components/InflatableComponent";
 
 const HomePage = () => {
 	return (
@@ -20,24 +21,24 @@ const HomePage = () => {
 				<div className="w-5/6 mx-auto">
 					<div className="lg:flex justify-between items-center lg:px-20 py-40 ">
 						<SecondContent
-							icons={"hi"}
+							icons={"Inflatable"}
 							heading={"We care"}
 							content={
-								"Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+								"We make sure to give you the best experience."
 							}
 						/>
 						<SecondContent
-							icons={"hi"}
+							icons={"Love"}
 							heading={"We love"}
 							content={
-								"Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+								"At Ubounce Inflatables , our customers safety is our top priority. "
 							}
 						/>
 						<SecondContent
-							icons={"hi"}
+							icons={"Happiness"}
 							heading={"We feel"}
 							content={
-								"Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+								"Put a smiles on childrens face."
 							}
 						/>
 					</div>
@@ -75,43 +76,43 @@ const HomePage = () => {
 			</div>
 
 			<div className="flex space-x-10 w-full overflow-x-auto p-8 lg:p-20">
-				<section className="flex-shrink-0 w-80 lg:w-96 cursor-pointer">
-					<img src={b1} alt="Cards" className="w-full h-72 mb-5" />
-					<h4 className="py-2 text-2xl font-light">Red inflatable</h4>
-					<p className="text-lg font-light">$ 80.00 per day</p>
-				</section>
-				<section className="flex-shrink-0 w-80 lg:w-96 cursor-pointer">
-					<img src={b2} alt="Cards" className="w-full h-72 mb-5" />
-					<h4 className="py-2 text-2xl font-light">Red inflatable</h4>
-					<p className="text-lg font-light">$ 80.00 per day</p>
-				</section>
-				<section className="flex-shrink-0 w-80 lg:w-96 cursor-pointer">
-					<img src={b3} alt="Cards" className="w-full h-72 mb-5" />
-					<h4 className="py-2 text-2xl font-light">Red inflatable</h4>
-					<p className="text-lg font-light">$ 80.00 per day</p>
-				</section>
-				<section className="flex-shrink-0 w-80 lg:w-96 cursor-pointer">
-					<img src={b4} alt="Cards" className="w-full h-72 mb-5" />
-					<h4 className="py-2 text-2xl font-light">Red inflatable</h4>
-					<p className="text-lg font-light">$ 80.00 per day</p>
-				</section>
-				<section className="flex-shrink-0 w-80 lg:w-96 cursor-pointer">
-					<img src={b5} alt="Cards" className="w-full h-72 mb-5" />
-					<h4 className="py-2 text-2xl font-light">Red inflatable</h4>
-					<p className="text-lg font-light">$ 80.00 per day</p>
-				</section>
-				<section className="flex-shrink-0 w-80 lg:w-96 cursor-pointer">
-					<img src={b6} alt="Cards" className="w-full h-72 mb-5" />
-					<h4 className="py-2 text-2xl font-light">Red inflatable</h4>
-					<p className="text-lg font-light">$ 80.00 per day</p>
-				</section>
+				<InflatableComponent
+					image={b1}
+					name={"Inflatable Package 1"}
+					price={"80.00"}
+				/>
+				<InflatableComponent
+					image={b2}
+					name={"Inflatable Package 2"}
+					price={"80.00"}
+				/>
+				<InflatableComponent
+					image={b3}
+					name={"Inflatable Package 3"}
+					price={"80.00"}
+				/>
+				<InflatableComponent
+					image={b4}
+					name={"Inflatable Package 4"}
+					price={"80.00"}
+				/>
+				<InflatableComponent
+					image={b5}
+					name={"Inflatable Package 5"}
+					price={"80.00"}
+				/>
+				<InflatableComponent
+					image={b6}
+					name={"Inflatable Package 6"}
+					price={"80.00"}
+				/>
 			</div>
 
 			<div className="w-5/6 mx-auto">
 				<div className="lg:flex justify-between items-center py-20 lg:py-40">
 					<div className="lg:w-1/2 lg:p-24">
 						<h3 className="text-4xl font-bold py-6">
-							We care. We love. We see. We hope.{" "}
+							Our goal
 						</h3>
 						<p>
 							Our goal is to provide individuals, groups, and
